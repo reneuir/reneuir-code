@@ -1,8 +1,8 @@
-# HowTo: Software Submissions to the 1st International Workshop on Open Web Search
+# HowTo: Software Submissions to the Conf'24 ReNeuIR Shared Task (Currently under Review)
 
 To start your submission, you should have prepared a Docker image of your approach.
 To get you started, please look at our [baseline submissions](../baselines) that you can use as inspiration.
-If you have no experience with Docker, please do not hesitate to contact us, we are happy to help you to dockerize your software.
+If you have no experience with Docker, please do not hesitate to contact us, we are happy to help you to dockerize your software (we also prepared a set of Github actions that automatically build a Docker image out of a github repository and upload it to TIRA).
 
 ## Step-by-Step Guide
 

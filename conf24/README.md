@@ -6,6 +6,7 @@ Important links/resources:
 - [The workshop page](https://reneuir.org)
 - [Software submissions](https://www.tira.io/task-overview/reneuir-2024)
 - [Baselines for software submissions](baselines)
+- [Tutorial on how to submit](tutorial)
 
 If you have any questions or problems, please do not hesitate to contact us via [the forum](https://www.tira.io/c/reneuir) or via mail.
 

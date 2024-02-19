@@ -1,4 +1,4 @@
-# HowTo: Software Submissions to the Conf'24 ReNeuIR Shared Task (Currently under Review)
+# HowTo: Software Submissions to the SIGIR'24 ReNeuIR Shared Task
 
 You can submit either via code submissions (the preferred [variant 1](variant-1) where you have your code in a prepared git repository that comes with suitable Github actions) or via a prepared Docker image of your approach ([variant 2](variant-2)).
 To get you started, please look at our [baseline submissions](../baselines) that you can use as inspiration.

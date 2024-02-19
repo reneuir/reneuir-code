@@ -4,5 +4,5 @@ Code for evaluation and baselines of the shared task to collect and measure neur
 
 Editions
 
-- [conf24](conf24) code for the planned edition in 2024 (currently under review).
+- [ReNeuIR@SIGIR'24](sigir24) code for the ReNeuIR shared task at SIGIR 2024.
 

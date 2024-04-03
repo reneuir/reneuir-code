@@ -1,0 +1,22 @@
+{
+  "build": {"dockerfile": "Dockerfile"},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.datawrangler",
+        "ms-azuretools.vscode-docker"
+      ]
+    },
+    "codespaces": {
+      "openFiles":[
+        "README.md"
+      ]
+    }
+  },
+  "runArgs": ["--privileged"],
+  "mounts": ["source=${localWorkspaceFolder}/.tira,target=/root/.tira,type=bind"]
+}
+

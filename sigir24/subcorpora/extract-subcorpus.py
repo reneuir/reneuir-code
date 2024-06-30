@@ -5,6 +5,7 @@ import pandas as pd
 import ir_datasets
 from tqdm import tqdm
 import json
+from xml.sax.saxutils import escape
 
 src_file = (environ['PWD'] + '/rerank.jsonl.gz')
 print(src_file)
@@ -27,6 +28,6 @@ with open('queries.jsonl', 'w') as f:
 with open('queries.xml', 'w') as f:
     f.write('<topics>\n')
     for qid, query in queries.items():
-        f.write(f' <topic number="{qid}">\n  <query>\n    {query}\n  </query>\n </topic>\n')
-    f.write('\n<topics>')
+        f.write(f' <topic number="{qid}">\n  <query>\n    {escape(query)}\n  </query>\n </topic>\n')
+    f.write('\n<\topics>')
 

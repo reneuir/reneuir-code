@@ -29,5 +29,5 @@ with open('queries.xml', 'w') as f:
     f.write('<topics>\n')
     for qid, query in queries.items():
         f.write(f' <topic number="{qid}">\n  <query>\n    {escape(query)}\n  </query>\n </topic>\n')
-    f.write('\n<\topics>')
+    f.write('</topics>')
 

@@ -6,6 +6,7 @@ from trectools import TrecRun, TrecPoolMaker
 from glob import glob
 from tqdm import tqdm
 import random
+import json
 
 queries = {
     'trec-dl-2019': {i.query_id: i.default_text() for i in ir_datasets.load("msmarco-passage/trec-dl-2019/judged").queries_iter()},
@@ -28,6 +29,6 @@ for track in queries:
         pool = TrecPoolMaker().make_pool(runs, strategy="topX", topX=pool_size).pool
         queries_pool = list(set([i for i in pool.keys() if i in queries[track]]))
         ret[track][pool_size] = {i: list(pool[i]) for i in pool.keys() if i in queries_pool}
-
-json.dumps(ret, open('document-dimensions-pool.json', 'w'))
+        json.dump(ret[track][pool_size], open(f'document-dimensions-pool-{pool_size}-{track}.json', 'w'))
+json.dump(ret, open('document-dimensions-pool.json', 'w'))
 

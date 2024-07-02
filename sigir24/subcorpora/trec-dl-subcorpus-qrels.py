@@ -17,9 +17,13 @@ for depth in [10, 100, 1000]:
         pool = json.load(open(f'document-dimensions-pool-{depth}-trec-{track}.json'))
         for k, d in pool.items():
             docs.update(d)
-    print(depth, len(docs))
-    with gzip.open(f'{depth}.documents.jsonl.gz', 'wt') as f:
-        for d in tqdm(docs, f'Depth {depth}'):
-            d = docsstore.get(d)
-            f.write(json.dumps({"docno": str(d.doc_id), "text": d.default_text()}) + '\n')
+    with open(f'{depth}.qrels', 'w') as f:
+
+        for qrel in tqdm(ir_datasets.load("msmarco-passage/trec-dl-2019").qrels_iter()):
+            if qrel.doc_id in docs:
+                f.write(f'{qrel.query_id} 0 {qrel.doc_id} {qrel.relevance}\n')
+
+        for qrel in tqdm(ir_datasets.load("msmarco-passage/trec-dl-2020").qrels_iter()):
+            if qrel.doc_id in docs:
+                f.write(f'{qrel.query_id} 0 {qrel.doc_id} {qrel.relevance}\n')
 

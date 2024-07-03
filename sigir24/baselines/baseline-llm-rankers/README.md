@@ -5,9 +5,61 @@ If you want to develop without dev containers, you can, (1) build the Docker ima
 
 # Submitted Variants
 
+### meta-llama/Llama-2-7b-chat-hf
+
+```
+docker build -t llm-rankers-llama-2-7b-chat --build-arg MODEL_NAME=meta-llama/Llama-2-7b-chat-hf .
+```
+
+Test locally + upload to TIRA:
+```
+tira-run \
+	--image llm-rankers-llama-2-7b-chat \
+	--mount-hf-model meta-llama/Llama-2-7b-chat-hf \
+	--input-dataset reneuir-2024/re-rank-spot-check-20240624-training
+```
+
+### lmsys/vicuna-13b-v1.5
+
+```
+docker build -t llm-rankers-vicuna-13b-v1.5 --build-arg MODEL_NAME=lmsys/vicuna-13b-v1.5 .
+```
+
+Test locally + upload to TIRA:
+```
+tira-run \
+	--image llm-rankers-vicuna-13b-v1.5 \
+	--mount-hf-model lmsys/vicuna-13b-v1.5 \
+	--input-dataset reneuir-2024/re-rank-spot-check-20240624-training
+```
+
 ### google/flan-t5-xl
 
-Build:
+```
+docker build -t llm-rankers-flan-t5-xl --build-arg MODEL_NAME=google/flan-t5-xl .
+```
+
+Test locally + upload to TIRA:
+```
+tira-run \
+	--image llm-rankers-flan-t5-xl \
+	--mount-hf-model google/flan-t5-xl \
+	--input-dataset reneuir-2024/re-rank-spot-check-20240624-training
+```
+
+### google/flan-t5-large
+
+```
+docker build -t llm-rankers-flan-t5-large --build-arg MODEL_NAME=google/flan-t5-large .
+```
+
+Test locally + upload to TIRA:
+```
+tira-run \
+	--image llm-rankers-flan-t5-large \
+	--mount-hf-model google/flan-t5-large \
+	--input-dataset reneuir-2024/re-rank-spot-check-20240624-training
+```
 
 ### google/flan-t5-small
 

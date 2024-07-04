@@ -27,7 +27,7 @@ The [retrieval.py](retrieval.py) script retrieves with BM25 with default configu
 tira-run \
     --image reneuir-baseline-pyterrier \
     --input-dataset reneuir-2024/tiny-sample-20231030-training \
-    --command '/retrieval.py'
+    --command '/retrieval.py BM25'
 ```
 
 The resulting run file is in `tira-output/run.txt`.

@@ -33,6 +33,20 @@ tira-run \
 	--input-dataset reneuir-2024/re-rank-spot-check-20240624-training
 ```
 
+### google/flan-t5-xxl
+
+```
+docker build -t llm-rankers-flan-t5-xxl --build-arg MODEL_NAME=google/flan-t5-xxl .
+```
+
+Test locally + upload to TIRA:
+```
+tira-run \
+	--image llm-rankers-flan-t5-xxl \
+	--mount-hf-model google/flan-t5-xxl \
+	--input-dataset reneuir-2024/re-rank-spot-check-20240624-training
+```
+
 ### google/flan-t5-xl
 
 ```

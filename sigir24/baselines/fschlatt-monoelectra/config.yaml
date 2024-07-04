@@ -1,0 +1,20 @@
+trainer:
+  precision: 16
+  logger: false
+  callbacks:
+  - class_path: ReRankCallback
+data:
+  class_path: lightning_ir.LightningIRDataModule
+  init_args:
+    num_workers: 1
+    inference_batch_size: 1
+    inference_datasets:
+      - class_path: lightning_ir.data.dataset.RunDataset
+        init_args:
+          depth: 1000
+          sample_size: 1000
+          sampling_strategy: top
+model:
+  class_path: CrossEncoderModule
+  init_args:
+    model_name_or_path: null

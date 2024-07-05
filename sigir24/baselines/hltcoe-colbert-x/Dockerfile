@@ -16,5 +16,5 @@ ADD run-notebook.py plaid-x-indexing.ipynb /app/
 RUN /app/run-notebook.py --notebook /app/plaid-x-indexing.ipynb \
 	&& rm -Rf /tmp/index
 
-RUN apt-get install -y vim
+ADD plaid-x-retrieval.ipynb /app/
 

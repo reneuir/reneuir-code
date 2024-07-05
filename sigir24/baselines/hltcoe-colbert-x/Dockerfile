@@ -1,10 +1,13 @@
 #docker build -t plaid-x .
-FROM pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
+FROM pytorch/pytorch:2.3.0-cuda12.1-cudnn8-devel
 
 RUN apt-get update \
-	&& apt-get install -y build-essential
+	&& apt-get install -y build-essential git
 
 RUN pip3 install transformers tira jupyter runnb PLAID-X
+
+#precompile C++ extensions to avoid peak memory usage
+RUN python3 -c 'from colbert.indexing.codecs.residual import ResidualCodec; ResidualCodec.try_load_torch_extensions(True);'
 
 #ADD run-notebook.py plaid-indexing.ipynb /app/
 

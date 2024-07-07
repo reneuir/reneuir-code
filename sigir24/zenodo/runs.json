@@ -274,5 +274,29 @@
     "reneuir-2024/reneuir-baselines/mmono-duo-t5-3b-top-25": {
         "previous-stage": [],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-06-07-15-53"}
+    },
+    "reneuir-2024/reneuir-baselines/pyterrier-bm25": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-15-39-10"}
+    },
+    "reneuir-2024/reneuir-baselines/pyterrier-pl2": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-15-39-40"}
+    },
+    "reneuir-2024/reneuir-baselines/pyterrier-dirichletlm": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-15-40-18"}
+    },
+    "reneuir-2024/reneuir-baselines/pyterrier-dlh": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-15-41-28"}
+    },
+    "reneuir-2024/reneuir-baselines/pyterrier-dph": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-15-42-59"}
+    },
+    "reneuir-2024/reneuir-baselines/pyterrier-ln-exp-b2": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-15-44-56"}
     }
 }

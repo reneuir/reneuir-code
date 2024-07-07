@@ -184,5 +184,29 @@
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-11-38-59"
 	}
+    },
+    "reneuir-2024/tu-dresden-03/bm25-flan-ul2-chain-of-thoughts-expansion-10": {
+        "previous-stage": ["reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)", "reneuir-2024/tu-dresden-03/query-expansion-flan-ul2-chain-of-thoughts"],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-19-10"}
+    },
+    "reneuir-2024/tu-dresden-03/bm25-flan-ul2-similar-queries-few-shot-5": {
+        "previous-stage": ["reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)", "reneuir-2024/tu-dresden-03/query-expansion-flan-ul2-similar-queries-few-shot"],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-22-10"}
+    },
+    "reneuir-2024/tu-dresden-03/bm25-flan-ul2-similar-queries-zero-shot-5": {
+        "previous-stage": ["reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)", "reneuir-2024/tu-dresden-03/query-expansion-flan-ul2-similar-queries-zero-shot"],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-26-12"}
+    },
+    "reneuir-2024/tu-dresden-03/bm25-llama2-chain-of-thoughts-10": {
+        "previous-stage": ["reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)", "reneuir-2024/tu-dresden-03/query-expansion-llama2-chat-chain-of-thoughts"],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-29-47"}
+    },
+    "reneuir-2024/tu-dresden-03/bm25-llama2-similar-queries-few-shot-5": {
+        "previous-stage": ["reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)", "reneuir-2024/tu-dresden-03/query-expansion-llama2-chat-similar-queries-few-shot"],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-32-21"}
+    },
+    "reneuir-2024/tu-dresden-03/bm25-llama2-similar-queries-zero-shot-5": {
+        "previous-stage": ["reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)", "reneuir-2024/tu-dresden-03/query-expansion-llama2-chat-similar-queries-zero-shot"],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-45-57"}
     }
 }

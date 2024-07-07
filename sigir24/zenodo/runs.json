@@ -3,7 +3,7 @@
         "runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-05-14-44-15",
             "dl-top-100-docs-20240701-training": "2024-07-05-14-17-33",
-            "dl-top-10-docs-20240701-training": "2024-07-05-14-15-16",
+            "dl-top-10-docs-20240701-training": "2024-07-05-14-15-16"
         }    
     },
     "reneuir-2024/reneuir-baselines/plaid-x-retrieval": {
@@ -11,14 +11,14 @@
         "runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-06-05-43-12",
             "dl-top-100-docs-20240701-training": "2024-07-06-05-41-50",
-            "dl-top-10-docs-20240701-training": "2024-07-06-05-40-43",
+            "dl-top-10-docs-20240701-training": "2024-07-06-05-40-43"
         }
     },
     "reneuir-2024/fschlatt/plaid-x-rank-zephyr": {
         "previous-stage": "reneuir-2024/reneuir-baselines/plaid-x-retrieval",
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-08-58-25"}
     },
-    "/list-in-t5-re-rank-plaid-x": {
+    "reneuir-2024/fschlatt/list-in-t5-re-rank-plaid-x": {
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-07-42-52"}
     }
 }

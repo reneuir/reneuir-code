@@ -275,6 +275,16 @@
         "previous-stage": [],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-06-07-15-53"}
     },
+    "reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-07-12-47-53",
+            "dl-top-100-docs-20240701-training": "2024-07-07-17-02-03",
+            "dl-top-10-docs-20240701-training": "2024-07-07-13-08-46",
+            "ms-marco-all-dev-queries-20240629-training": "2024-07-07-13-12-11",
+            "ms-marco-1000-queries-20240629-training": "2024-07-07-13-25-57",
+            "ms-marco-100-queries-20240629-training": "2024-07-07-13-27-26"
+	}
+    },
     "reneuir-2024/reneuir-baselines/pyterrier-bm25": {
         "previous-stage": [],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-15-39-10"}

@@ -20,5 +20,32 @@
     },
     "reneuir-2024/fschlatt/list-in-t5-re-rank-plaid-x": {
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-07-42-52"}
+    },
+    "reneuir-2024/fschlatt/monoelectra-large": {
+	"runs": {
+            "dl-top-10-docs-20240701-training": "2024-07-05-20-41-51",
+            "dl-top-100-docs-20240701-training": "2024-07-05-20-41-27",
+            "dl-top-1000-docs-20240701-training": "2024-07-04-08-33-20"
+	}
+    },
+    "reneuir-2024/fschlatt/monoelectra-base": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-04-08-49-41"
+	}
+    },
+    "reneuir-2024/fschlatt/rank-zephyr": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-02-19-16-06"
+	}
+    },
+    "reneuir-2024/fschlatt/castorini-list-in-t5-150": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-07-07-36-53"
+        }
+    },
+    "reneuir-2024/fschlatt/sparse-cross-encoder-4-512": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-04-13-02-55"
+	}
     }
 }

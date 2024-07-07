@@ -185,6 +185,11 @@
             "dl-top-1000-docs-20240701-training": "2024-07-07-11-38-59"
 	}
     },
+    "reneuir-2024/naverlabseurope/Splade (Index)": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-07-13-39-27"
+	}
+    },
     "reneuir-2024/tu-dresden-03/bm25-flan-ul2-chain-of-thoughts-expansion-10": {
         "previous-stage": ["reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)", "reneuir-2024/tu-dresden-03/query-expansion-flan-ul2-chain-of-thoughts"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-19-10"}
@@ -244,5 +249,17 @@
     "reneuir-2024/tira-ir-starter/SBERT msmarco-distilbert-dot-v5 (tira-ir-starter-beir)": {
         "previous-stage": [],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-56-47"}
+    },
+    "reneuir-2024/ows/pyterrier-anceindex": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-13-43-04"}
+    },
+    "reneuir-2024/reneuir-baselines/mono-duo-t5-3b-top-50": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-14-19-17"}
+    },
+    "reneuir-2024/reneuir-baselines/mmono-duo-t5-3b-top-25": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-06-07-15-53"}
     }
 }

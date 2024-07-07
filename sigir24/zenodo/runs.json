@@ -208,5 +208,41 @@
     "reneuir-2024/tu-dresden-03/bm25-llama2-similar-queries-zero-shot-5": {
         "previous-stage": ["reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)", "reneuir-2024/tu-dresden-03/query-expansion-llama2-chat-similar-queries-zero-shot"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-45-57"}
+    },
+    "reneuir-2024/tira-ir-starter/MonoT5 Base (tira-ir-starter-gygaggle)": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-49-46"}
+    },
+    "reneuir-2024/tira-ir-starter/ColBERT Re-Rank (tira-ir-starter-pyterrier)": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-50-35"}
+    },
+    "reneuir-2024/tira-ir-starter/TASB msmarco-distilbert-base-cos (tira-ir-starter-beir)": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-51-30"}
+    },
+    "reneuir-2024/tira-ir-starter/ANCE Base Dot (tira-ir-starter-beir)": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-52-22"}
+    },
+    "reneuir-2024/tira-ir-starter/MonoT5 3b (tira-ir-starter-gygaggle)": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-02-19-22-36"}
+    },
+    "reneuir-2024/tira-ir-starter/MonoBERT Large (tira-ir-starter-gygaggle)": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-02-19-24-18"}
+    },
+    "reneuir-2024/tira-ir-starter/MonoBERT Small (tira-ir-starter-gygaggle)": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-53-42"}
+    },
+    "reneuir-2024/tira-ir-starter/SBERT multi-qa-mpnet-base-dot-v1 (tira-ir-starter-beir)": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-55-21"}
+    },
+    "reneuir-2024/tira-ir-starter/SBERT msmarco-distilbert-dot-v5 (tira-ir-starter-beir)": {
+        "previous-stage": [],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-56-47"}
     }
 }

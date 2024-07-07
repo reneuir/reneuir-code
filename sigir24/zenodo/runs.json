@@ -82,5 +82,35 @@
             "ms-marco-1000-queries-20240629-training": "2024-07-07-09-15-27",
             "ms-marco-100-queries-20240629-training": "2024-07-07-09-14-46"
 	}
+    },
+    "reneuir-2024/reneuir-baselines/anserini-bm25": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-07-08-37-43"
+	}
+    },
+    "reneuir-2024/reneuir-baselines/anserini-qld": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-07-08-41-44"
+	}
+    },
+    "reneuir-2024/reneuir-baselines/anserini-inl2": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-07-08-43-42"
+	}
+    },
+    "reneuir-2024/reneuir-baselines/anserini-spl": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-07-08-46-48"
+	}
+    },
+    "reneuir-2024/reneuir-baselines/anserini-f2log": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-07-09-07-27"
+	}
+    },
+    "reneuir-2024/reneuir-baselines/anserini-f2exp": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-07-09-16-50"
+	}
     }
 }

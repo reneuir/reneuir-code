@@ -47,5 +47,30 @@
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-04-13-02-55"
 	}
+    },
+        "reneuir-2024/reneuir-baselines/llm-rankers-flan-t5-xl-top-100": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-04-05-31-10"
+	}
+    },
+    "reneuir-2024/reneuir-baselines/llm-rankers-flan-t5-large-top-100": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-03-22-27-49"
+	}
+    },
+    "reneuir-2024/reneuir-baselines/llm-rankers-vicuna-13b-v1.5-top-100": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-04-05-24-13"
+	}
+    },
+    "reneuir-2024/reneuir-baselines/llm-rankers-flan-t5-xxl-top-100": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-04-06-59-38"
+	}
+    },
+    "reneuir-2024/reneuir-baselines/llm-rankers-llama-2-7b-chat-top-100": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-04-13-00-15"
+	}
     }
 }

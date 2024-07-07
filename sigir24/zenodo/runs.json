@@ -179,5 +179,10 @@
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-11-18-49"
 	}
+    },
+    "reneuir-2024/naverlabseurope/Splade (re-ranker)": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-07-11-38-59"
+	}
     }
 }

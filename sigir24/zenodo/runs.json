@@ -252,8 +252,21 @@
     },
     "reneuir-2024/ows/pyterrier-anceindex": {
         "previous-stage": [],
-        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-13-43-04"}
+        "runs": {
+	    "dl-top-1000-docs-20240701-training": "2024-07-07-13-43-04",
+	    "dl-top-100-docs-20240701-training": "2024-07-07-14-56-34",
+	    "dl-top-10-docs-20240701-training": "2024-07-07-14-05-38"
+	}
     },
+    "reneuir-2024/ows/pyterrier-anceretrieval": {
+        "previous-stage": [],
+        "runs": {
+	    "dl-top-1000-docs-20240701-training": "2024-07-07-15-29-55",
+	    "dl-top-100-docs-20240701-training": "2024-07-07-15-38-21",
+	    "dl-top-10-docs-20240701-training": "2024-07-07-15-29-20"
+	}
+    },
+
     "reneuir-2024/reneuir-baselines/mono-duo-t5-3b-top-50": {
         "previous-stage": [],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-14-19-17"}

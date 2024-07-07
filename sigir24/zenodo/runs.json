@@ -112,5 +112,42 @@
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-09-16-50"
 	}
+    },
+    "reneuir-2024/tu-dresden-03/query-expansion-flan-ul2-chain-of-thoughts": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-03-17-27-08",
+            "ms-marco-all-dev-queries-20240629-training": "2024-07-04-13-04-24",
+            "ms-marco-1000-queries-20240629-training": "2024-07-04-05-25-58"
+	}
+    },
+    "reneuir-2024/tu-dresden-03/query-expansion-flan-ul2-similar-queries-few-shot": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-03-17-32-34",
+            "ms-marco-1000-queries-20240629-training": "2024-07-04-05-32-25"
+	}
+    },
+    "reneuir-2024/tu-dresden-03/query-expansion-flan-ul2-similar-queries-zero-shot": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-03-17-33-51",
+            "ms-marco-1000-queries-20240629-training": "2024-07-04-05-33-20"
+	}
+    },
+    "reneuir-2024/tu-dresden-03/query-expansion-llama2-chat-chain-of-thoughts": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-03-18-03-45",
+            "ms-marco-1000-queries-20240629-training": "2024-07-03-18-21-11"
+	}
+    },
+    "reneuir-2024/tu-dresden-03/query-expansion-llama2-chat-similar-queries-zero-shot": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-03-18-19-13",
+            "ms-marco-1000-queries-20240629-training": "2024-07-04-05-35-02"
+	}
+    },
+    "reneuir-2024/tu-dresden-03/query-expansion-llama2-chat-similar-queries-few-shot": {
+	"runs": {
+            "dl-top-1000-docs-20240701-training": "2024-07-03-18-19-41",
+            "ms-marco-1000-queries-20240629-training": "2024-07-04-13-10-12"
+	}
     }
 }

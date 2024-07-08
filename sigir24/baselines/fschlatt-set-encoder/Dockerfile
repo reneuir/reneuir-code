@@ -14,13 +14,17 @@ RUN pip3 install \
     git+https://github.com/webis-de/lightning-ir.git \
     && pip cache purge
 
+RUN git clone https://github.com/webis-de/set-encoder /workspace/set-encoder
+
 ADD run.sh /workspace/run.sh
 ADD config.yaml /config/config.yaml
+ENV PYTHONPATH=/workspace/set-encoder
 
 ARG MODEL_NAME
 ENV MODEL=$MODEL_NAME
 ENV CONFIG_DIR=/config
 ENV HF_HUB_OFFLINE=1
 ENV OFFLINE=True
+
 
 ENTRYPOINT [ "run.sh" ]

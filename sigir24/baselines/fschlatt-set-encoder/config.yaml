@@ -1,0 +1,20 @@
+trainer:
+  precision: bf16-mixed
+  logger: false
+  callbacks:
+  - class_path: ReRankCallback
+data:
+  class_path: lightning_ir.LightningIRDataModule
+  init_args:
+    num_workers: 1
+    inference_batch_size: 1
+    inference_datasets:
+      - class_path: lightning_ir.RunDataset
+        init_args:
+          depth: 100
+          sample_size: 100
+          sampling_strategy: top
+model:
+  class_path: set_encoder.set_encoder.SetEncoderModule
+  init_args:
+    model_name_or_path: null

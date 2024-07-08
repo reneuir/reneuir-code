@@ -7,7 +7,7 @@ RUN pip3 install openai tiktoken accelerate transformers llm-rankers sentencepie
 
 ARG MODEL_NAME
 ENV MODEL=$MODEL_NAME
-ADD run-notebook.py re-rank-with-llm-rankers.ipynb re-rank-top-100-with-llm-rankers.ipynb /app/
+ADD run-notebook.py re-rank-with-llm-rankers.ipynb /app/
 
-ENTRYPOINT [ "/app/run-notebook.py", "--notebook", "/app/re-rank-top-100-with-llm-rankers.ipynb" ]
+ENTRYPOINT [ "/app/run-notebook.py", "--notebook", "/app/re-rank-with-llm-rankers.ipynb" ]
 

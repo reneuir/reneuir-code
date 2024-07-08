@@ -1,5 +1,3 @@
-# docker build -t fschlatt/monoelectra:0.0.1 .
-
 FROM pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
 
 RUN apt-get update && apt-get install -y \
@@ -22,5 +20,7 @@ ADD config.yaml /config/config.yaml
 ARG MODEL_NAME
 ENV MODEL=$MODEL_NAME
 ENV CONFIG_DIR=/config
+ENV HF_HUB_OFFLINE=1
+ENV OFFLINE=True
 
 ENTRYPOINT [ "run.sh" ]

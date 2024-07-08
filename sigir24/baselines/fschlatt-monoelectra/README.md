@@ -3,7 +3,7 @@
 ### webis/monoelectra-base
 
 ```
-docker build -t monoelectra-base --build-arg MODEL_NAME=monoelectra-base .
+docker build -t monoelectra-base --build-arg MODEL_NAME=webis/monoelectra-base .
 ```
 
 Test locally + upload to TIRA:
@@ -17,7 +17,7 @@ tira-run \
 ### webis/monoelectra-large
 
 ```
-docker build -t monoelectra-large --build-arg MODEL_NAME=monoelectra-large .
+docker build -t monoelectra-large --build-arg MODEL_NAME=webis/monoelectra-large .
 ```
 
 Test locally + upload to TIRA:

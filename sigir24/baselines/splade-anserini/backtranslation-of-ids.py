@@ -8,7 +8,7 @@ import os
 parser = argparse.ArgumentParser()
 parser.add_argument('mapping_dir')
 parser.add_argument('-output', required=True)
-args = parser.parse_args()
+args, _ = parser.parse_known_args()
 
 query_ids = json.load(open(f'{args.mapping_dir}/query-ids.json'))
 document_ids = json.load(open(f'{args.mapping_dir}/document-ids.json'))

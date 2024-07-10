@@ -1,6 +1,6 @@
 FROM mam10eks/anserini:0.0.1
 
-ADD index.sh retrieval.sh /
+ADD index.sh retrieval.sh backtranslation-of-ids.py /
 
 ENTRYPOINT [ "/index.sh", "$inputDataset", "-index", "$outputDir/index" ]
 

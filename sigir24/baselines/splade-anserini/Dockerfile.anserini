@@ -1,0 +1,6 @@
+FROM mam10eks/anserini:0.0.1
+
+ADD index.sh retrieval.sh /
+
+ENTRYPOINT [ "/index.sh", "$inputDataset", "-index", "$outputDir/index" ]
+

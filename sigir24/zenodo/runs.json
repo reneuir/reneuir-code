@@ -345,6 +345,10 @@
         "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-13-29-40"}
     },
+    "reneuir-2024/fschlatt/fusion-t5-rank-zephyr": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/fusion-monot5"],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-21-00-29"}
+    },
     "reneuir-2024/reneuir-baselines/rankllama": {
         "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-09-06-34-48"}

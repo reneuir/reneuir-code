@@ -4,6 +4,7 @@ from pathlib import Path
 from tqdm import tqdm
 import pandas as pd
 import json
+import zipfile
 
 def _run_dir(user_id, dataset_id, run_id):
     return Path(f'/mnt/ceph/tira/data/runs/{dataset_id}/{user_id}/{run_id}/')
@@ -20,7 +21,7 @@ def ensure_run_did_run_on_gammaweb09(user_id, dataset_id, run_id):
         raise ValueError('Did not run on gammaweb09: ', run_dir)
 
 
-def zip_runs(paths_to_be_zipped, name):
+def zip_runs(name, paths_to_be_zipped):
     """ Copied from "from tira.views import zip_run, zip_runs" to run this without the tira server dependencies """
     
     zipped = Path(f"/mnt/ceph/storage/web/files/data-in-production/data-research/tira-zenodo-dump-preparation/reneuir-2024/runs/{name}.zip")
@@ -79,7 +80,7 @@ if __name__ == '__main__':
 
     pd.DataFrame(ret).to_json('aggregated-profiling.jsonl', lines=True, orient='records')
     
-    for archive_group in tqdm(groups_for_archival, 'Zip runs'):
+    for archive_group in tqdm(groups_for_archival.keys(), 'Zip runs'):
         runs_to_zip = sorted(list(groups_for_archival[archive_group].values()))
         zip_runs(archive_group, runs_to_zip)
 

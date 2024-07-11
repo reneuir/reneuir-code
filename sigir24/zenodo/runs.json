@@ -367,12 +367,12 @@
     },
 
     "reneuir-2024/reneuir-baselines/mono-duo-t5-3b-top-50": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/tira-ir-starter/MonoT5 3b (tira-ir-starter-gygaggle)"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-14-19-17"},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/mono-duo-t5-3b-top-25": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/tira-ir-starter/MonoT5 3b (tira-ir-starter-gygaggle)"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-06-07-15-53"},
         "class": "cross-encoder-ranker"
     },
@@ -417,7 +417,7 @@
         "class": "sparse-retriever"
     },
     "reneuir-2024/reneuir-baselines/fusion-monot5": {
-        "previous-stages": ["reneuir-2024/reneuir-baselines/plaid-x-retrieval", "reneuir-2024/reneuir-baselines/plaid-mono-t5"],
+        "previous-stages": ["reneuir-2024/tira-ir-starter/MonoT5 3b (tira-ir-starter-gygaggle)", "reneuir-2024/reneuir-baselines/plaid-mono-t5"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-20-37-22"},
         "class": "cross-encoder-ranker"
     },

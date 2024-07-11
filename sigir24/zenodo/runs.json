@@ -336,7 +336,17 @@
     "reneuir-2024/reneuir-baselines/plaid-mono-t5": {
         "previous-stages": ["reneuir-2024/reneuir-baselines/plaid-x-retrieval"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-18-28-20"}
+    },
+    "reneuir-2024/fschlatt/set-encoder-base": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-13-41-16"}
+    },
+    "reneuir-2024/fschlatt/set-encoder-large": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-13-29-40"}
+    },
+    "reneuir-2024/reneuir-baselines/rankllama": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-09-06-34-48"}
     }
-
-
 }

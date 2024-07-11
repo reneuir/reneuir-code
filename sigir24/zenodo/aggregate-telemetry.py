@@ -40,16 +40,16 @@ def all_previous_stages(i):
         return [i]
 
 ret = {}
+dataset_id = 'dl-top-1000-docs-20240701-training'
 with open('single-stage-telemetry.jsonl', 'r') as f:
-    dataset_id = 'dl-top-1000-docs-20240701-training'
     for l in f:
         l = json.loads(l)
         if l['dataset'] != dataset_id:
             continue
-    assert l['approach'] not in ret
-    tmp = {'approach': l['approach'], 'dataset': l['dataset'], 'run_id': l['run_id']}
-    tmp.update(aggregate_previous_stages(tmp['approach'], dataset_id))
-    ret[tmp['approach']]  = tmp
+        assert l['approach'] not in ret
+        tmp = {'approach': l['approach'], 'dataset': l['dataset'], 'run_id': l['run_id']}
+        tmp.update(aggregate_previous_stages(tmp['approach'], dataset_id))
+        ret[tmp['approach']] = tmp
 
 json.dump(ret, open('../post-hoc-notebooks/aggregated-telemetry.json', 'w'))
 

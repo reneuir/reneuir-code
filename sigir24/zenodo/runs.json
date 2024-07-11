@@ -1,5 +1,6 @@
 {
     "reneuir-2024/reneuir-baselines/plaid-x-index": {
+        "previous-stage": [],
         "runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-05-14-44-15",
             "dl-top-100-docs-20240701-training": "2024-07-05-14-17-33",
@@ -16,11 +17,12 @@
         "class": "bi-encoder-retriever"
     },
     "reneuir-2024/fschlatt/plaid-x-rank-zephyr": {
-        "previous-stage": "reneuir-2024/reneuir-baselines/plaid-x-retrieval",
+        "previous-stage": ["reneuir-2024/reneuir-baselines/plaid-x-retrieval"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-08-58-25"},
         "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/fschlatt/list-in-t5-re-rank-plaid-x": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/plaid-x-retrieval"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-07-42-52"},
         "class": "cross-encoder-ranker"
     },
@@ -361,32 +363,32 @@
 	}
     },
     "reneuir-2024/reneuir-baselines/pyterrier-bm25": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-15-39-10"},
         "class": "sparse-retriever"
     },
     "reneuir-2024/reneuir-baselines/pyterrier-pl2": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-15-39-40"},
         "class": "sparse-retriever"
     },
     "reneuir-2024/reneuir-baselines/pyterrier-dirichletlm": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-15-40-18"},
         "class": "sparse-retriever"
     },
     "reneuir-2024/reneuir-baselines/pyterrier-dlh": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-15-41-28"},
         "class": "sparse-retriever"
     },
     "reneuir-2024/reneuir-baselines/pyterrier-dph": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-15-42-59"},
         "class": "sparse-retriever"
     },
     "reneuir-2024/reneuir-baselines/pyterrier-ln-exp-b2": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/tira-ir-starter/Index (tira-ir-starter-pyterrier)"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-15-44-56"},
         "class": "sparse-retriever"
     },

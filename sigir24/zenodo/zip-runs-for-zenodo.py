@@ -78,7 +78,7 @@ if __name__ == '__main__':
             tmp.update(aggregation_of_run(user_id, dataset_id, run_id))
             ret += [tmp]
 
-    pd.DataFrame(ret).to_json('aggregated-profiling.jsonl', lines=True, orient='records')
+    pd.DataFrame(ret).to_json('single-stage-telemetry.jsonl', lines=True, orient='records')
     
     for archive_group in tqdm(groups_for_archival.keys(), 'Zip runs'):
         runs_to_zip = sorted(list(groups_for_archival[archive_group].values()))

@@ -23,7 +23,7 @@ def ensure_run_did_run_on_gammaweb09(user_id, dataset_id, run_id):
 def zip_runs(paths_to_be_zipped, name):
     """ Copied from "from tira.views import zip_run, zip_runs" to run this without the tira server dependencies """
     
-    zipped = Path(f"{name}.zip")
+    zipped = Path(f"/mnt/ceph/storage/web/files/data-in-production/data-research/tira-zenodo-dump-preparation/reneuir-2024/runs/{name}.zip")
     if zipped.exists():
         return
 

@@ -88,23 +88,28 @@
     },
     "reneuir-2024/reneuir-baselines/plaid-x-llm-rankers-flan-t5-xxl": {
         "previous-stage": [],
-        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-16-00"}
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-16-00"},
+        "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/plaid-x-llm-rankers-flan-t5-xl": {
         "previous-stage": [],
-        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-19-10"}
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-19-10"},
+        "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/plaid-x-llm-rankers-vicuna-13b-v1.5": {
         "previous-stage": [],
-        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-24-39"}
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-24-39"},
+        "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/plaid-x-llm-rankers-flan-t5-large": {
         "previous-stage": [],
-        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-21-14"}
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-21-14"},
+        "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/plaid-x-llm-rankers-llama-2-7b-chat": {
         "previous-stage": [],
-        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-27-31"}
+        "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-27-31"},
+        "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/anserini-index": {
 	"runs": {

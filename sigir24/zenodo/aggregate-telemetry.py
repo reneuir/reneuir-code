@@ -15,7 +15,7 @@ with open('single-stage-telemetry.jsonl', 'r') as f:
 
 def aggregate_previous_stages(i, dataset_id):
     prev = sorted(list(set(all_previous_stages(i))))
-    
+
     ret = {'Elapsed Time': [], 'CPU Utilization (Max)': [], 'RSS (MAX)': [], 'GPU Memory (Max)': [], 'GPU Utilization (Max)': []}
     for p in prev:
         for k in ret:

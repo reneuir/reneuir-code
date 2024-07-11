@@ -417,12 +417,12 @@
         "class": "sparse-retriever"
     },
     "reneuir-2024/reneuir-baselines/fusion-monot5": {
-        "previous-stages": ["reneuir-2024/tira-ir-starter/MonoT5 3b (tira-ir-starter-gygaggle)", "reneuir-2024/reneuir-baselines/plaid-mono-t5"],
+        "previous-stage": ["reneuir-2024/tira-ir-starter/MonoT5 3b (tira-ir-starter-gygaggle)", "reneuir-2024/reneuir-baselines/plaid-mono-t5"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-20-37-22"},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/plaid-mono-t5": {
-        "previous-stages": ["reneuir-2024/reneuir-baselines/plaid-x-retrieval"],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/plaid-x-retrieval"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-18-28-20"},
         "class": "cross-encoder-ranker"
     },

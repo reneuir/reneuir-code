@@ -27,6 +27,7 @@
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/fschlatt/monoelectra-large": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-10-docs-20240701-training": "2024-07-05-20-41-51",
             "dl-top-100-docs-20240701-training": "2024-07-05-20-41-27",
@@ -35,85 +36,95 @@
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/fschlatt/monoelectra-base": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-04-08-49-41"
 	},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/fschlatt/rank-zephyr": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-02-19-16-06"
 	},
         "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/fschlatt/castorini-list-in-t5-150": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-07-36-53"
         },
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/fschlatt/sparse-cross-encoder-4-512": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-04-13-02-55"
 	},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/llm-rankers-flan-t5-xl-top-100": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-04-05-31-10"
 	},
         "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/llm-rankers-flan-t5-large-top-100": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-03-22-27-49"
 	},
         "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/llm-rankers-vicuna-13b-v1.5-top-100": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-04-05-24-13"
 	},
         "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/llm-rankers-flan-t5-xxl-top-100": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-04-06-59-38"
 	},
         "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/llm-rankers-llama-2-7b-chat-top-100": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-04-13-00-15"
 	},
         "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/plaid-x-llm-rankers-flan-t5-xxl": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/plaid-x-retrieval"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-16-00"},
         "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/plaid-x-llm-rankers-flan-t5-xl": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/plaid-x-retrieval"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-19-10"},
         "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/plaid-x-llm-rankers-vicuna-13b-v1.5": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/plaid-x-retrieval"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-24-39"},
         "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/plaid-x-llm-rankers-flan-t5-large": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/plaid-x-retrieval"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-21-14"},
         "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/plaid-x-llm-rankers-llama-2-7b-chat": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/plaid-x-retrieval"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-08-05-27-31"},
         "class": "llm-cross-encoder-ranker"
     },
     "reneuir-2024/reneuir-baselines/anserini-index": {
+        "previous-stage": [],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-08-09-13",
             "dl-top-100-docs-20240701-training": "2024-07-07-08-10-08",
@@ -124,36 +135,42 @@
 	}
     },
     "reneuir-2024/reneuir-baselines/anserini-bm25": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/anserini-index"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-08-37-43"
 	},
         "class": "sparse-retriever"
     },
     "reneuir-2024/reneuir-baselines/anserini-qld": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/anserini-index"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-08-41-44"
 	},
         "class": "sparse-retriever"
     },
     "reneuir-2024/reneuir-baselines/anserini-inl2": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/anserini-index"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-08-43-42"
 	},
         "class": "sparse-retriever"
     },
     "reneuir-2024/reneuir-baselines/anserini-spl": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/anserini-index"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-08-46-48"
 	},
         "class": "sparse-retriever"
     },
     "reneuir-2024/reneuir-baselines/anserini-f2log": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/anserini-index"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-09-07-27"
 	},
         "class": "sparse-retriever"
     },
     "reneuir-2024/reneuir-baselines/anserini-f2exp": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/anserini-index"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-09-16-50"
 	},

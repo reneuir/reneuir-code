@@ -220,42 +220,49 @@
         "class": "llm-expansions"
     },
     "reneuir-2024/tinyfsu/tiny-fsu-bert": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-11-14-20"
 	},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/tinyfsu/cross-encoder-ms-marco-TinyBERT-L-2": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-11-15-00"
 	},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/tinyfsu/tiny-bert-ranker-bm25": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-11-15-41"
 	},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/tinyfsu/tiny-bert-ranker-l2-bm25": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-11-16-26"
 	},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/tinyfsu/tiny-bert-ranker-distillation": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-11-17-39"
 	},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/tinyfsu/tiny-bert-ranker-l-2-distillation": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-11-18-49"
 	},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/naverlabseurope/Splade (re-ranker)": {
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
 	"runs": {
             "dl-top-1000-docs-20240701-training": "2024-07-07-11-38-59"
 	},
@@ -297,47 +304,47 @@
         "class": "llm-expansion-retriever"
     },
     "reneuir-2024/tira-ir-starter/MonoT5 Base (tira-ir-starter-gygaggle)": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-49-46"},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/tira-ir-starter/ColBERT Re-Rank (tira-ir-starter-pyterrier)": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-50-35"},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/tira-ir-starter/TASB msmarco-distilbert-base-cos (tira-ir-starter-beir)": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-51-30"},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/tira-ir-starter/ANCE Base Dot (tira-ir-starter-beir)": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-52-22"},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/tira-ir-starter/MonoT5 3b (tira-ir-starter-gygaggle)": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-02-19-22-36"},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/tira-ir-starter/MonoBERT Large (tira-ir-starter-gygaggle)": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-02-19-24-18"},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/tira-ir-starter/MonoBERT Small (tira-ir-starter-gygaggle)": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-53-42"},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/tira-ir-starter/SBERT multi-qa-mpnet-base-dot-v1 (tira-ir-starter-beir)": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-55-21"},
         "class": "cross-encoder-ranker"
     },
     "reneuir-2024/tira-ir-starter/SBERT msmarco-distilbert-dot-v5 (tira-ir-starter-beir)": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/reneuir-baselines/pyterrier-bm25"],
         "runs": {"dl-top-1000-docs-20240701-training": "2024-07-07-12-56-47"},
         "class": "cross-encoder-ranker"
     },
@@ -350,7 +357,7 @@
 	}
     },
     "reneuir-2024/ows/pyterrier-anceretrieval": {
-        "previous-stage": [],
+        "previous-stage": ["reneuir-2024/ows/pyterrier-anceindex"],
         "runs": {
 	    "dl-top-1000-docs-20240701-training": "2024-07-07-15-29-55",
 	    "dl-top-100-docs-20240701-training": "2024-07-07-15-38-21",

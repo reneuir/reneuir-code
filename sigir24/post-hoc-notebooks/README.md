@@ -12,11 +12,11 @@ There could be many ways to realize the efficiency axis of this plot. To leave a
 
 <img src="figures/example-gpu-utilization.png" alt="example-gpu-utilization" width="600"/>
 
-This plot shows that it can be difficult to measure efficiency through a single number, as one of the approaches finishes faster wheras the other approach needs fewer GPU resources (i.e., could run with higher parallelization). Still, both approaches operate in the same "order of magnitude", e.g., for a first closer look we could just try to distinguish effectiveness on a log scale, e.g., so that we distinguish if something runs within 1 second, 10 seconds, or 100 seconds (respectively needs a 400MB, 4GB, or 40GB GPU, etc.). For this, here is a efficiency versus effectiveness plot that shows the log of the elapsed time vs. nDCG@10:
+This plot shows that measuring efficiency through a single number can be difficult, as one of the approaches finishes faster. In contrast, the other approach needs fewer GPU resources (i.e., it could run with higher parallelization). Still, both approaches operate in the same "order of magnitude", e.g., for a first closer look, we could try to distinguish effectiveness on a log scale, e.g., so that we distinguish if something runs within 1 second, 10 seconds, or 100 seconds (respectively needs a 400MB, 4GB, or 40GB GPU, etc.). For this, here is an efficiency versus effectiveness plot that shows the log of the elapsed time vs. nDCG@10:
 
 <img src="figures/ndcg-vs-elapsed-time.png" alt="ndcg-vs-elapsed-time" width="600"/>
 
-This plot contains all systems that executed for the ReNeuIR task colored by their approach:
+This plot contains all systems executed for the ReNeuIR task colored by their approach:
 
 - bi-encoder-retriever: systems process queries and documents independently of each other, e.g., PLAID-X.
 - cross-encoder-ranker: systems that process query-document pairs pointwise, pairwise, or listwise with a "traditional" transformer, e.g., MonoT5.

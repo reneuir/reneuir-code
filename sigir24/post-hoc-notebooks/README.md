@@ -2,7 +2,7 @@
 
 **Attention**: The [shared task is still ongoing](https://reneuir.org/shared_task.html). Please do not hesitate to submit new systems or to suggest additional datasets on which we could run all systems.
 
-The goal of the ReNeuIR 2024 shared task is to foster the development of new performance measures that incorporate efficiency and effectiveness simultaneously. While our community converged on measuring effectiveness, it remains an open research question on how to measure efficiency and trade it off for effectiveness.
+The goal of the ReNeuIR 2024 shared task is to foster the development of new performance measures that incorporate efficiency and effectiveness simultaneously. While our community converged on how to measure effectiveness, it remains an open research question on how to measure efficiency and trade it off for effectiveness.
 
 To support research in this direction, we collect retrieval systems and monitor their execution within [TIRA](https://www.tira.io/)/[TIREx](https://webis.de/publications.html?q=TIRA#froebe_2023e) on the same hardware on different loads of datasets, aiming at painting an holistic picture of efficiency and effectiveness:
 

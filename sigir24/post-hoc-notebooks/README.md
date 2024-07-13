@@ -28,9 +28,7 @@ This plot contains all systems that executed for the ReNeuIR task colored by the
 
 The datasets and parallel corpora of run files together with telemetry for producing the run files is available on Zenodo[[datasets](https://zenodo.org/records/12722918), [runs with telemetry](https://zenodo.org/records/12728703)]. The notebooks in this directory contain examples on how to easily access those resources via the tira client.
 
-This directory will contain jupyter notebooks analyzing/evaluating submitted systems.
-
-Of course, many other interpretations of what efficiency means could be incorporated, we hope that we will have some nice discussions on this at the workshop.
+This directory contains jupyter notebooks for analyzing/evaluating submitted systems, e.g., [example-access-telemetry.ipynb](example-access-telemetry.ipynb), [post-hoc-analysis.ipynb](post-hoc-analysis.ipynb), and [overview-of-corpora.ipynb](overview-of-corpora.ipynb).
 
 # Further Details
 

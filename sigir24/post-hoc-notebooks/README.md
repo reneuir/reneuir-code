@@ -8,7 +8,7 @@ To support research in this direction, we collect retrieval systems and monitor 
 
 <img src="figures/conceptual-overview.png" alt="conceptual-overview" width="600"/>
 
-There could be many ways to realize the efficiency axis of this plot. To leave as much freedom as possible, we did execute all systems on the [same hardware](#hardware) while monitoring their GPU/CPU/memory consumption. All runs and their telemetry are available on [Zenodo](#resources-produced-within-the-shared-task), the [example-access-telemetry.ipynb] notebook shows how to access detailed telemetry data, e.g., how to compare the gpu utilization of two approaches over time like in this plot:
+There could be many ways to realize the efficiency axis of this plot. To leave as much freedom as possible, we did execute all systems on the [same hardware](#hardware) while monitoring their GPU/CPU/memory consumption. All runs and their telemetry are available on [Zenodo](#resources-produced-within-the-shared-task), the [example-access-telemetry.ipynb](example-access-telemetry.ipynb) notebook shows how to access detailed telemetry data, e.g., how to compare the gpu utilization of two approaches over time like in this plot:
 
 <img src="figures/example-gpu-utilization.png" alt="example-gpu-utilization" width="600"/>
 

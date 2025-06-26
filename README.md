@@ -4,5 +4,6 @@ Code for evaluation and baselines of the shared task to collect and measure neur
 
 Editions
 
+- [ReNeuIR@SIGIR'25](sigir25) code for the ReNeuIR shared task at SIGIR 2025.
 - [ReNeuIR@SIGIR'24](sigir24) code for the ReNeuIR shared task at SIGIR 2024.
 
